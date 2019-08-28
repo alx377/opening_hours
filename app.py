@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from utils import parse_data
 app = Flask(__name__)
 
